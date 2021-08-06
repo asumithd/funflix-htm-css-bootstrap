@@ -1,0 +1,186 @@
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+
+.topleft {
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url(../image/backgroundimage.jpg);
+}
+
+.topleft h2 {
+  color: #ff0000;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+button.btn.point {
+  border: 1px solid;
+  border-color: #fff;
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  padding: 5px 15px 5px 15px;
+}
+
+button.btn.point1 {
+  margin: 0 0px 0px 20px;
+  background-color: #ff0000;
+  color: #fff;
+  font-size: 18px;
+  padding: 5px 15px 5px 15px;
+}
+
+.topright {
+}
+.subtitle {
+  padding: 90px 0px 0px 0px;
+}
+.subtitle h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+  font-weight: 800;
+  padding: 20px 273px;
+}
+.subtitle h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 26px;
+  color: #fff;
+  font-weight: 200;
+  padding: 0;
+}
+.subtitle p {
+  display: flex;
+  justify-content: center;
+  font-size: 19px;
+  color: #fff;
+  font-weight: 200;
+  padding: 30px 0px 0 0px;
+}
+.point2 {
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px 90px 0px;
+}
+.pointlist {
+  padding: 14px 0 14px 15px;
+  font-size: 18px;
+  width: 50%;
+}
+.btn.btn-framed {
+  background-color: #ff0000;
+  color: #fff;
+  font-size: 18px;
+  border-radius: unset;
+}
+
+.darkbgblack {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #0000007a;
+  z-index: -1;
+}
+.subform {
+  background-color: #000000ba;
+  border-radius: 10px;
+  padding: 40px 50px;
+  width: 35%;
+  margin: 0 auto;
+}
+.subform h1 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: 28px;
+}
+.point3 {
+  flex-wrap: wrap;
+  padding: 0px 0px 0px 0px;
+}
+.formlist {
+  margin: 0 0 20px 0px;
+  padding: 10px 80px 15px 10px;
+  background-color: #333;
+  color: #8c8c8c;
+  border-radius: 5px;
+  border: none;
+}
+.btn.btn-framed1 {
+  background-color: #e50914;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 0 10px 0px;
+  margin: 30px 0 0px 0px;
+  border: none;
+  width: 100%;
+}
+.checklist label {
+  padding: 10px 0 0px 0px;
+  color: #b3b3b3;
+  font-size: 14px;
+}
+.checklist {
+  display: flex;
+  justify-content: space-between;
+}
+.checklist h6 {
+  padding: 10px 0 0px 0px;
+  color: #b3b3b3;
+  font-size: 14px;
+  cursor: pointer;
+}
+.logapp {
+  display: flex;
+}
+.logapp img {
+  width: 25px;
+  cursor: pointer;
+}
+.logapp h6 {
+  font-size: 14px;
+  cursor: pointer;
+  color: #737373;
+  padding: 0px 0px 0px 0px;
+  margin: 5px 0px 0 5px;
+}
+.loglist1 {
+  display: flex;
+}
+.loglist p {
+  font-size: 12px;
+  color: #737373;
+  padding: 10px 0px 0px 0px;
+  margin: 5px 0px 0 5px;
+}
+.loglist span {
+  font-size: 12px;
+  color: #3c0aef;
+  padding: 10px 0px 0px 0px;
+  margin: 5px 0px 0 5px;
+}
+.loglist1 h5 {
+  font-size: 18px;
+  color: #737373;
+  padding: 10px 0px 0px 0px;
+  margin: 5px 0px 0 5px;
+}
+.loglist1 h4 {
+  font-size: 18px;
+  color: #fefcfc;
+  padding: 10px 0px 0px 0px;
+  margin: 5px 0px 0 5px;
+  font-weight: 600;
+  cursor: pointer;
+}

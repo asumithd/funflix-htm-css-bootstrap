@@ -1,0 +1,529 @@
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+
+.bgblack {
+  position: relative;
+  height: 90px;
+  background: #080808;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f3f3f3 !important;
+}
+
+.topleft h2 {
+  color: #ff0000;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.topright {
+  float: right;
+}
+.avatar {
+  width: 45px;
+}
+.avatarlink:hover .visibleContainer {
+  display: block;
+}
+.liavatar {
+  width: 45px;
+  margin-right: 8px;
+  border-radius: 10px;
+}
+.visibleContainer {
+  display: none;
+  position: absolute;
+  right: -32px;
+  top: 46px;
+  background: #080808;
+  width: 156px;
+  color: #fff;
+  padding-left: 8px;
+}
+.visibleContainer > a > li {
+  list-style: none;
+  margin: 0;
+  padding: 4px 0;
+}
+.name {
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 300;
+  color: #fff;
+}
+.sort-icon {
+  font-size: 24px;
+  position: relative;
+  top: -10px;
+  left: 58px;
+  color: #fff;
+}
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.visibleContainer {
+  display: none;
+  position: absolute;
+  color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.visibleContainer a {
+  color: black;
+  padding: 6px 0px;
+  text-decoration: none;
+  display: block;
+}
+
+.rowFirst {
+  margin-top: 2.3rem;
+}
+.dropdown:hover .visibleContainer {
+  display: block;
+}
+.dropdown:hover .visibleContainer a:hover {
+  text-decoration: underline !important;
+}
+.accText {
+  font-size: 2em;
+  color: #333;
+  margin: 0 0 0.4em;
+  font-weight: 400;
+}
+hr {
+  margin-top: 4px !important;
+  margin-bottom: 10px !important;
+  border: 0;
+  border-top: 1px solid #ccc !important;
+}
+.innerBox {
+  display: flex;
+  justify-content: space-between;
+}
+.htText {
+  font-size: 16px;
+  font-weight: bold;
+  color: #757575;
+}
+
+.htBtn {
+  border: none;
+  background: #e1e1e1;
+  font-size: 12px;
+  padding: 10px 29px;
+}
+.htmText {
+  font-size: 14px;
+  font-weight: bold;
+}
+.hfText {
+  font-size: 14px;
+  padding-top: 5px;
+  color: #757575;
+}
+.sfirBox {
+  flex-basis: 20%;
+}
+.ssecBox {
+  flex-basis: 50%;
+}
+.ssecBox1 {
+  flex-basis: 80%;
+}
+.sthiBox {
+  text-align: right;
+}
+.vcardI {
+  width: 30px;
+}
+.rowThird {
+  padding-bottom: 20px;
+  padding-top: 8px;
+}
+.hfText > a {
+  font-weight: 600;
+}
+.sthiBox {
+  flex-basis: 30%;
+}
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  margin-left: 50px;
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+.Down {
+  float: right;
+  top: -32px !important;
+}
+.glyphicon-chevron-down::before {
+  content: "\e113";
+}
+.accavatar {
+  width: 50px;
+  border-radius: 10px;
+}
+.accBox {
+  display: flex;
+}
+.aboxText {
+  margin-left: 12px;
+}
+.mzero {
+  margin: 0;
+}
+.mHzero {
+  margin: 0;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.msHzero {
+  color: #787878;
+  font-size: 12px;
+}
+.accboxinn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rText {
+  padding: 14px 0;
+}
+.aboxText {
+  margin-top: 8px;
+}
+.question {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 500;
+}
+.questionSub {
+  color: #757575;
+}
+.service {
+  border: 1px solid #757575;
+  padding: 8px;
+  display: inline-block;
+  color: #757575;
+  font-size: 0.8521em;
+  min-width: 90px;
+  text-align: center;
+}
+.serviceinn {
+  color: #757575;
+  margin: 45px 0 20px;
+}
+
+.justify-content {
+  justify-content: center;
+}
+.headText {
+  font-size: 40px;
+  margin-bottom: 0;
+  font-weight: bolder;
+}
+.headSubText {
+  font-size: 19px;
+  margin: 7px 0;
+}
+.cardInn {
+  display: grid;
+  width: 100%;
+  justify-content: center;
+}
+.bgBtnInn {
+  padding: 30px 0px;
+  border: 1px solid #e6e6e6;
+  background: #fff;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  display: flex;
+}
+.iconBg {
+  font-size: 48px;
+  color: red;
+  margin: 0 20px;
+}
+.iconInn {
+  padding: 0 218px 0 0;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+}
+.bgSubText {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.helpText {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+.fcolor {
+  color: #757575;
+}
+.trustINN {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.relPos {
+  position: relative;
+  display: -webkit-box;
+  margin-bottom: 5rem !important;
+}
+.upLabel {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  transition: 0.3s;
+  pointer-events: none;
+  letter-spacing: 0;
+  font-size: small;
+  color: #757575;
+}
+.upInputs input {
+  box-shadow: none;
+  border: 1px solid #757575;
+  border-radius: 0px !important;
+}
+
+.upInputs input:focus ~ .upLabel,
+.upInputs input:not(:placeholder-shown) ~ .upLabel {
+  color: #0a76b7;
+  top: 0px;
+  border: none;
+}
+.loginInp {
+  height: 4.4rem !important;
+  border-radius: 5px !important;
+}
+.iconeye {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.checkInn {
+  width: 30px;
+  height: 30px;
+  margin-left: -10px !important;
+  position: relative;
+}
+.checkInnSub {
+  position: relative;
+  top: -12px;
+  font-size: 15px;
+  color: #757575;
+  font-weight: 500;
+}
+.form-check {
+  position: relative;
+  display: block;
+  padding-left: 1.25rem;
+  padding-bottom: 3rem;
+}
+.savbtn {
+  background: #0f84fa !important;
+  border-color: #0f84fa !important;
+}
+.cardbtn {
+  background: #ff0000 !important;
+  border-color: #ff0000 !important;
+  font-size: 18px !important;
+}
+.canbtn {
+  border-color: #cccccc !important;
+  color: #000 !important;
+  background: #cccccc !important;
+}
+
+.tBtn {
+  border-radius: 0 !important;
+  width: auto;
+  margin-bottom: 5rem !important;
+  padding: 10px 20px !important;
+  font-weight: 500 !important;
+}
+
+.vpHtext {
+  font-size: 42px;
+  font-weight: bolder;
+}
+.vpHSubtext {
+  font-weight: 400;
+  font-size: 18px;
+}
+.mlfive {
+  margin: 0 5px;
+}
+.acHtext {
+  margin-bottom: 40px;
+}
+
+.acHsubtext {
+  margin-bottom: 0;
+}
+.billContent {
+  height: 140px;
+  padding: 8px;
+  background: #fff;
+  border: 1px solid #ccc;
+}
+.contentInn {
+  margin-bottom: 14px;
+}
+.fsizex {
+  font-size: 16px;
+}
+.fsizen {
+  font-size: 12px;
+  margin-top: 4px;
+}
+.tabth {
+  font-weight: 100;
+}
+table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+th {
+  font-weight: 100;
+}
+tr {
+  border-bottom: 1px solid #ccc;
+}
+td {
+  padding: 5px 0 10px 0px !important;
+}
+.cpli {
+  background: #fff;
+  border: 3px solid #ccc;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  height: 110px;
+  margin-bottom: 15px;
+}
+
+.cpInn {
+  background: #ccc;
+  text-align: center;
+  padding: 40px 30px;
+}
+.plan-name {
+  font-weight: 700;
+}
+.cpInnSub {
+  flex-basis: 69%;
+  padding: 40px 5px;
+}
+.cpInnSubNext {
+  flex-basis: 11%;
+  padding: 40px 5px;
+}
+.firstLi {
+  border: 3px solid #077af5 !important;
+}
+
+.tickIcon {
+  position: absolute;
+  left: 98px;
+  top: 225px;
+  font-size: 25px;
+  color: #fff;
+  background: #077af5;
+  border-radius: 30px;
+  width: 50px;
+  height: 50px;
+  padding-left: 10px;
+  padding-top: 8px;
+  margin-left: -5px;
+  font-weight: bolder;
+}
+.bgWhite {
+  position: relative;
+  height: 90px;
+  background: #fff;
+}
+.Sout {
+  color: #000;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  font-weight: 500;
+}
+.memberInn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+.memText {
+  font-weight: 700;
+  font-size: 23px;
+}
+.memSubText {
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.mbten {
+  margin-bottom: 10px !important;
+}
+.IconImgs {
+  width: 30px;
+  padding-bottom: 10px;
+}
+.cardForm {
+  margin-top: 20px;
+}
+.questionIcon {
+  width: 30px;
+  position: absolute;
+  right: 5px;
+  top: 10px;
+}
+.cardInp {
+  height: 5.4rem !important;
+}
